@@ -5,7 +5,7 @@ import MovieCard from '../components/MovieCard';
 import { AuthContext } from '../context/AuthContext';
 import { toastWarnNotify } from '../helpers/ToastNotify.jsx';
 
-const API_KEY = process.env.REACT_APP_TMDB_KEY;
+const API_KEY = 'af75a8f8730221a41d9cfb7f2f9369f3';
 const FEATURED_API = `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}`;
 const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=`;
 
